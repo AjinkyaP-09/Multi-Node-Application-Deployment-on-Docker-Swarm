@@ -1,6 +1,7 @@
 # Multi-Node-Application-Deployment-on-Docker-Swarm
 
 This project deploys a multi-service "Cats vs Dogs" voting application on a Docker Swarm cluster. The architecture is composed of five services distributed across two overlay networks.
+
 <img width="1919" height="913" alt="Screenshot 2025-08-06 115357" src="https://github.com/user-attachments/assets/bbc51c72-3e94-4657-84fc-d608c814a476" />
 
 ## Architecture
@@ -91,3 +92,5 @@ docker service create \
 
 - Results Interface: `http://<YOUR_SWARM_IP>:5001`
 <img width="1906" height="976" alt="Screenshot 2025-08-06 114621" src="https://github.com/user-attachments/assets/c8239aa4-7516-4a12-a520-c3604be78018" />
+
+GitHub Repository of App : https://github.com/dockersamples/example-voting-app
